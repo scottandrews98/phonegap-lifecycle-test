@@ -10,10 +10,7 @@ function updateDisplay() {
 <<<<<<< HEAD
     document.getElementById("launched").innerHTML = "Application launched" + launched_count;
     document.getElementById("resumed").innerHTML = "Application paused" + paused_count;
-=======
-	 document.getElementById("launched").innerHTML = "Application launched" + launched_count;
-    document.getElementById("resumed").innerHTML = "Application paused" + paused_count_count;
->>>>>>> origin/master
+
     document.getElementById("passed").innerHTML = "Application resumed" + resumed_count;
 }
 
