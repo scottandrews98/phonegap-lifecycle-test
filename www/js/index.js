@@ -7,7 +7,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 		
 	
 function updateDisplay() {
-<<<<<<< HEAD
+
     document.getElementById("launched").innerHTML = "Application launched" + launched_count;
     document.getElementById("resumed").innerHTML = "Application paused" + paused_count;
 
@@ -50,3 +50,6 @@ function updateDisplay() {
 	// Will run an alert on the phone which will display the text resume.    
 	alert("resume");
     }
+
+
+    // 
