@@ -25,7 +25,7 @@ function updateDisplay() {
 	launched_count++;
 	updateDisplay();
 	    
-	alert("device ready");
+	console.log("device ready");
     }
 
 
@@ -36,7 +36,7 @@ function updateDisplay() {
     // Runs the updateDisplay function    
 	updateDisplay();
     // Will run an alert on the phone which will display the text pause. 
-	alert("pause");
+	console.log("pause");
     }
 	
 
@@ -48,7 +48,7 @@ function updateDisplay() {
     // Runs the updateDisplay function    
 	updateDisplay();
 	// Will run an alert on the phone which will display the text resume.    
-	alert("resume");
+	console.log("resume");
     }
 
 
