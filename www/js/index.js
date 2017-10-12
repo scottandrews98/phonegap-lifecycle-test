@@ -1,4 +1,4 @@
-var paused_count =0;
+var paused_count = 0;
 var resumed_count = 0;
 var launched_count = 0;
 
@@ -9,9 +9,9 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function updateDisplay() {
 
     document.getElementById("launched").innerHTML = "Application launched" + launched_count;
-    document.getElementById("resumed").innerHTML = "Application paused" + paused_count;
+    document.getElementById("paused").innerHTML = "Application paused " + paused_count;
 
-    document.getElementById("passed").innerHTML = "Application resumed" + resumed_count;
+    document.getElementById("resumed").innerHTML = "Application resumed " + resumed_count;
 }
 
 
